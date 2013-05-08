@@ -14,9 +14,9 @@ Prove that Ruby sintax is expresive enough to avoid the need of writing web view
 
 As Spit is a ruby class with ruby methods, and the html that is spits is a string, so using it is just as using ruby strings.
 
-Basically, there's a method that renders that tag (ex. ```spit.div => <div>```)
+Basically, for each HTML tag, there's a method that renders such tag (ex. ```spit.div => <div>```)
 
-See the (benchmark)[https://github.com/F-3r/spit/blob/master/benchmarks/view.spit.rb] for a possible use case.
+See the [benchmark example](https://github.com/F-3r/spit/blob/master/benchmarks/view.spit.rb) for a possible use case.
   
 ##Pros
 ...
